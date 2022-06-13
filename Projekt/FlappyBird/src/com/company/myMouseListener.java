@@ -47,8 +47,6 @@ class myMouseListener implements MouseListener, KeyListener {
             Bird.SetYBird(300);
             Game.OverallStart(true);
         }
-
-
     }
 
     @Override

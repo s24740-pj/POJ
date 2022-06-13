@@ -75,15 +75,12 @@ public class Bird extends JPanel implements ActionListener {
         if(GravityOn){
             if(this.x+image.getWidth() > Pipe.GetXPipe() && this.x-image.getWidth()+100 < Pipe.GetXPipe()){
                 if(this.y+image.getHeight() > Pipe.GetYPipe()+2300 || this.y < Pipe.GetYPipe()+1500){
-//                  System.out.println("HIT");
                     posY = 1000;
                     ScoreUI.CheckIfHighScore();
                     Game.OverallStart(false);
                 }else if(this.x > Pipe.GetXPipe()){
-//                    System.out.println("POINT,after");
                     ScoreUI.AddScore(1);
                 }else if(this.x > Pipe.GetXPipe()-250){
-//                    System.out.println("POINT");
                     ScoreUI.AddScore(0);
                 }
             }

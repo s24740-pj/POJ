@@ -28,7 +28,6 @@ public class Game extends JFrame implements ActionListener {
 
         add(new Background());
 
-
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(false);
         setVisible(true);
