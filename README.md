@@ -12,3 +12,6 @@ Zadanie domowe, przygotowanie do kolokwium
 
 # Zjazd4
 Kolokwium
+
+# Zjazd6-8
+Projekk Flappy Bird
